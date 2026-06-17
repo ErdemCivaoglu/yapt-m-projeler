@@ -49,9 +49,9 @@ while True:
         else:
             print("Dosyalar:", dosyalar)
 
-        cevap = input("Dosya silmek ister misiniz? (y/n): ")
+        cevap = input("Dosya silmek ister misiniz? (e/h): ")
 
-        if cevap == "y":
+        if cevap == "e":
             dosyaadi = input("Silmek istediğiniz dosya adını giriniz: ")
 
             if dosyaadi in dosyalar:
@@ -61,7 +61,7 @@ while True:
             else:
                 print("Hata: Dosya bulunamadı!")
 
-        elif cevap == "n":
+        elif cevap == "h":
             continue
         else:
             print("Hatalı giriş!")
